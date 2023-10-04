@@ -10,12 +10,11 @@ public class App {
             System.out.println(tal1>tal2);
 
             int[] talen = {4,5,2};
-            System.out.print(talen[0]>talen[1]);
-            System.out.println(talen[0]>talen[2]);
-            System.out.print(talen[0]<talen[1]);
-            System.out.println(talen[0]<talen[2]);
-            System.out.print(talen[0]==talen[1]);
-            System.out.println(talen[0]==talen[2]);
+            System.out.println(talen[0]>talen[1] || talen[0]>talen[2]);
+            System.out.println(talen[0]<talen[1] ||talen[0]<talen[2]);
+            System.out.println(talen[0]==talen[1] || talen[0]==talen[2]);
+
+            
 
             System.out.println("Tänk på ett tal och skriv det");
             int tänktal = tangentbord.nextInt();
